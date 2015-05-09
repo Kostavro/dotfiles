@@ -1,1 +1,12 @@
-/home/kostavro/.config/openbox/autostart
+
+# panel
+(sleep 1s && tint2) &
+
+# activate numlock
+(sleep 1s && numlockx) &
+
+# Set Wallpaper
+/home/kostavro/scripts/wallpaper.sh &
+
+# redshift
+(sleep 1 && redshift -O 3800) &
