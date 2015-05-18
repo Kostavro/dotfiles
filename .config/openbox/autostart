@@ -1,4 +1,3 @@
-
 # panel
 (sleep 1s && tint2) &
 
@@ -11,5 +10,8 @@
 # start conky
 (sleep 1s && conky) &
 
-# redshift
-(sleep 1 && redshift -O 3800) &
+# apply redshift
+(sleep 1s && redshift -O 3800) &
+
+# darken screen
+(sleep 1s && xcalib -co 70 -a) &
