@@ -15,3 +15,9 @@
 
 # darken screen
 (sleep 1s && xcalib -co 70 -a) &
+
+# start volwheel
+(sleep 1s && volwheel) &
+
+# start guake
+(sleep 1s && guake) &
