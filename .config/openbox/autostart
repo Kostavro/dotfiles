@@ -5,7 +5,7 @@
 (sleep 1s && numlockx) &
 
 # Set Wallpaper
-(sleep 1s && /home/kostavro/git/scripts/wallpaper.sh) &
+(sleep 1s && /home/kostavro/Documents/git/scripts/wallpaper.sh) &
 
 # start conky
 (sleep 1s && conky) &
