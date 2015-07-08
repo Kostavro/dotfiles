@@ -286,6 +286,15 @@ cases. -->
         </startupnotify>
       </action>
     </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>chromium</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Web Browser</name>
+        </startupnotify>
+      </action>
+    </keybind>
     <keybind key="W-s">
       <action name="Execute">
         <command>sudo -u kostavro skype</command>
@@ -370,9 +379,6 @@ cases. -->
     </keybind>
     <keybind key="A-W-Left">
       <action name="GrowToEdgeWest"/>
-    </keybind>
-    <keybind key="W-c">
-      <action name="MoveToCenter"/>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">

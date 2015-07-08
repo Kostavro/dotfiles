@@ -1,23 +1,23 @@
 # panel
-(sleep 1s && tint2) &
+(sleep 2s && tint2) &
 
 # activate numlock
-(sleep 1s && numlockx) &
+(sleep 2s && numlockx) &
 
 # Set Wallpaper
-(sleep 1s && /home/kostavro/Documents/git/scripts/wallpaper.sh) &
+(sleep 2s && /home/kostavro/Documents/git/scripts/wallpaper.sh) &
 
 # start conky
-(sleep 1s && conky) &
+(sleep 2s && conky) &
 
 # apply redshift
-(sleep 1s && redshift -O 3800) &
+(sleep 2s && redshift -O 3800) &
 
 # darken screen
-(sleep 1s && xcalib -co 70 -a) &
+(sleep 2s && xcalib -co 80 -a) &
 
 # start volwheel
-(sleep 1s && volwheel) &
+(sleep 2s && volwheel) &
 
 # start guake
-(sleep 1s && guake) &
+(sleep 2s && guake) &
