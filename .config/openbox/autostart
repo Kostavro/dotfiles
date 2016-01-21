@@ -11,7 +11,7 @@
 (sleep 2s && conky) &
 
 # apply redshift
-(sleep 2s && redshift -O 3800) &
+#(sleep 2s && redshift -O 3800) &
 
 # darken screen
 (sleep 2s && xcalib -co 80 -a) &
@@ -21,3 +21,6 @@
 
 # start guake
 (sleep 2s && guake) &
+
+# start qxkb
+(sleep 2s && qxkb) &
