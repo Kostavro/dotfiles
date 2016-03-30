@@ -261,7 +261,7 @@ cases. -->
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>chromium</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -270,7 +270,7 @@ cases. -->
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>firefox -private-window</command>
+        <command>chromium --incognito</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -288,10 +288,28 @@ cases. -->
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <command>chromium</command>
+        <command>firefox</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="Execute">
+        <command>kodi</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Kodi</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>galculator</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Galculator</name>
         </startupnotify>
       </action>
     </keybind>
