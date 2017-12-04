@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/kostavro/.oh-my-zsh
+export ZSH=/home/kostas/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/.extra/zsh_custom
 
 # Set name of the theme to load.
@@ -75,7 +75,10 @@ unset file
 # unalias exit
 
 # enable syntax highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/kostas/.extra/zsh_custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# enable autosuggestions
+source /home/kostas/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 setopt notify nohashdirs autocd correctall globdots histignoredups noclobber automenu menucomplete \
         completealiases pathdirs cdable_vars checkjobs dotglob  histverify histappend pushdignoredups \
@@ -88,5 +91,6 @@ WATCHFMT="%n from %M has %a tty%l at %T %W"
 
 # display moo alias
 #moo
+
 
 
