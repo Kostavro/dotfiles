@@ -1,0 +1,22 @@
+#!/bin/bash
+
+alias brightness='/home/kostas/Documents/github/scripts/brightness.sh'
+
+alias psteam='ps aux | grep steam'
+alias pskodi='ps aux | grep kodi'
+
+alias free='free -ht'
+
+alias fn='find . -iname '
+alias fd='find . -type d -name'
+alias ff='find . -type f -name'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias cd..='cd ..'
+
+alias myip='curl icanhazip.com'
+
+
