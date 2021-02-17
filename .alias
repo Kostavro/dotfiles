@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#alias brightness='/home/kostas/Documents/github/scripts/brightness.sh'
+alias brightness='xbacklight -inc 5'
+alias dimness='xbacklight -dec 5'
+
+alias psteam='ps aux | grep steam'
+alias pskodi='ps aux | grep kodi'
+
+alias free='free -ht'
+
+alias fn='find . -iname '
+alias fd='find . -type d -name'
+alias ff='find . -type f -name'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias cd..='cd ..'
+
+alias myip='curl icanhazip.com'
+
+alias gitconfig='/usr/bin/git --git-dir=/home/kostas/.cfg/ --work-tree=/home/kostas'
+
+alias keepass='~/Programs/keepass.sh'
